@@ -15,6 +15,7 @@ onEvent("r1c1", "click", function( ) {
   } else {
     setProperty("r2c1", "background-color", "blue");
   }
+  win();
 });
 onEvent("r1c2", "click", function( ) {
   if (getProperty("r1c1", "background-color") == "blue") {
@@ -37,6 +38,7 @@ onEvent("r1c2", "click", function( ) {
   } else {
     setProperty("r2c2", "background-color", "blue");
   }
+  win();
 });
 onEvent("r1c3", "click", function( ) {
   if (getProperty("r1c2", "background-color") == "blue") {
@@ -59,6 +61,7 @@ onEvent("r1c3", "click", function( ) {
   } else {
     setProperty("r2c3", "background-color", "blue");
   }
+  win();
 });
 onEvent("r1c4", "click", function( ) {
   if (getProperty("r1c3", "background-color") == "blue") {
@@ -81,6 +84,7 @@ onEvent("r1c4", "click", function( ) {
   } else {
     setProperty("r2c4", "background-color", "blue");
   }
+  win();
 });
 onEvent("r1c5", "click", function( ) {
   if (getProperty("r1c4", "background-color") == "blue") {
@@ -98,6 +102,7 @@ onEvent("r1c5", "click", function( ) {
   } else {
     setProperty("r2c5", "background-color", "blue");
   }
+  win();
 });
 onEvent("r2c1", "click", function( ) {
   if (getProperty("r1c1", "background-color") == "blue") {
@@ -120,6 +125,7 @@ onEvent("r2c1", "click", function( ) {
   } else {
     setProperty("r3c1", "background-color", "blue");
   }
+  win();
 });
 onEvent("r2c2", "click", function( ) {
   if (getProperty("r1c2", "background-color") == "blue") {
@@ -147,6 +153,7 @@ onEvent("r2c2", "click", function( ) {
   } else {
     setProperty("r3c2", "background-color", "blue");
   }
+  win();
 });
 onEvent("r2c3", "click", function( ) {
   if (getProperty("r1c3", "background-color") == "blue") {
@@ -174,6 +181,7 @@ onEvent("r2c3", "click", function( ) {
   } else {
     setProperty("r3c3", "background-color", "blue");
   }
+  win();
 });
 onEvent("r2c4", "click", function( ) {
   if (getProperty("r1c4", "background-color") == "blue") {
@@ -201,6 +209,7 @@ onEvent("r2c4", "click", function( ) {
   } else {
     setProperty("r3c4", "background-color", "blue");
   }
+  win();
 });
 onEvent("r2c5", "click", function( ) {
   if (getProperty("r1c5", "background-color") == "blue") {
@@ -223,6 +232,7 @@ onEvent("r2c5", "click", function( ) {
   } else {
     setProperty("r3c5", "background-color", "blue");
   }
+  win();
 });
 onEvent("r3c1", "click", function( ) {
   if (getProperty("r2c1", "background-color") == "blue") {
@@ -245,6 +255,7 @@ onEvent("r3c1", "click", function( ) {
   } else {
     setProperty("r4c1", "background-color", "blue");
   }
+  win();
 });
 onEvent("r3c2", "click", function( ) {
   if (getProperty("r2c2", "background-color") == "blue") {
@@ -272,6 +283,7 @@ onEvent("r3c2", "click", function( ) {
   } else {
     setProperty("r4c2", "background-color", "blue");
   }
+  win();
 });
 onEvent("r3c3", "click", function( ) {
   if (getProperty("r2c3", "background-color") == "blue") {
@@ -299,6 +311,7 @@ onEvent("r3c3", "click", function( ) {
   } else {
     setProperty("r4c3", "background-color", "blue");
   }
+  win();
 });
 onEvent("r3c4", "click", function( ) {
   if (getProperty("r2c4", "background-color") == "blue") {
@@ -326,6 +339,7 @@ onEvent("r3c4", "click", function( ) {
   } else {
     setProperty("r4c4", "background-color", "blue");
   }
+  win();
 });
 onEvent("r3c5", "click", function( ) {
   if (getProperty("r2c5", "background-color") == "blue") {
@@ -348,6 +362,7 @@ onEvent("r3c5", "click", function( ) {
   } else {
     setProperty("r4c5", "background-color", "blue");
   }
+  win();
 });
 onEvent("r4c1", "click", function( ) {
   if (getProperty("r3c1", "background-color") == "blue") {
@@ -370,6 +385,7 @@ onEvent("r4c1", "click", function( ) {
   } else {
     setProperty("r5c1", "background-color", "blue");
   }
+  win();
 });
 onEvent("r4c2", "click", function( ) {
   if (getProperty("r3c2", "background-color") == "blue") {
@@ -397,6 +413,7 @@ onEvent("r4c2", "click", function( ) {
   } else {
     setProperty("r5c2", "background-color", "blue");
   }
+  win();
 });
 onEvent("r4c3", "click", function( ) {
   if (getProperty("r3c3", "background-color") == "blue") {
@@ -424,6 +441,7 @@ onEvent("r4c3", "click", function( ) {
   } else {
     setProperty("r5c3", "background-color", "blue");
   }
+  win();
 });
 onEvent("r4c4", "click", function( ) {
   if (getProperty("r3c4", "background-color") == "blue") {
@@ -451,6 +469,7 @@ onEvent("r4c4", "click", function( ) {
   } else {
     setProperty("r5c4", "background-color", "blue");
   }
+  win();
 });
 onEvent("r4c5", "click", function( ) {
   if (getProperty("r3c5", "background-color") == "blue") {
@@ -473,6 +492,7 @@ onEvent("r4c5", "click", function( ) {
   } else {
     setProperty("r5c5", "background-color", "blue");
   }
+  win();
 });
 onEvent("r5c1", "click", function( ) {
   if (getProperty("r4c1", "background-color") == "blue") {
@@ -490,6 +510,7 @@ onEvent("r5c1", "click", function( ) {
   } else {
     setProperty("r5c2", "background-color", "blue");
   }
+  win();
 });
 onEvent("r5c2", "click", function( ) {
   if (getProperty("r4c2", "background-color") == "blue") {
@@ -512,6 +533,7 @@ onEvent("r5c2", "click", function( ) {
   } else {
     setProperty("r5c3", "background-color", "blue");
   }
+  win();
 });
 onEvent("r5c3", "click", function( ) {
   if (getProperty("r4c3", "background-color") == "blue") {
@@ -534,6 +556,7 @@ onEvent("r5c3", "click", function( ) {
   } else {
     setProperty("r5c4", "background-color", "blue");
   }
+  win();
 });
 onEvent("r5c4", "click", function( ) {
   if (getProperty("r4c4", "background-color") == "blue") {
@@ -556,6 +579,7 @@ onEvent("r5c4", "click", function( ) {
   } else {
     setProperty("r5c5", "background-color", "blue");
   }
+  win();
 });
 onEvent("r5c5", "click", function( ) {
   if (getProperty("r4c5", "background-color") == "blue") {
@@ -573,6 +597,7 @@ onEvent("r5c5", "click", function( ) {
   } else {
     setProperty("r5c5", "background-color", "blue");
   }
+  win();
 });
 var b1;
 var b2;
@@ -755,13 +780,12 @@ onEvent("reset", "click", function( ) {
   reset();
 });
 function win() {
-  for (var r = 0; r <= 5; r++) {
-    for (var c = 0; c <= 5; c++) {
+  for (var r = 1; r <= 5; r++) {
+    for (var c = 1; c <= 5; c++) {
       var id = 'r'+r.toString()+'c'+c.toString();
-      if (getProperty(id, "background-color") == "red") {
+      if (getProperty(id, "background-color") == "blue") {
         return false;
       }
     }
   }
 }
-win();
