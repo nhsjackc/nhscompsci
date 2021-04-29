@@ -754,3 +754,14 @@ function reset() {
 onEvent("reset", "click", function( ) {
   reset();
 });
+function win() {
+  for (var r = 0; r <= 5; r++) {
+    for (var c = 0; c <= 5; c++) {
+      var id = 'r'+r.toString()+'c'+c.toString();
+      if (getProperty(id, "background-color") == "red") {
+        return false;
+      }
+    }
+  }
+}
+win();
