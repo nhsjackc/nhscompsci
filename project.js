@@ -1,3 +1,4 @@
+reset();
 onEvent("r1c1", "click", function( ) {
   if (getProperty("r1c1", "background-color") == "blue") {
     setProperty("r1c1", "background-color", "red");
