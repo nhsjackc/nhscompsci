@@ -573,3 +573,183 @@ onEvent("r5c5", "click", function( ) {
     setProperty("r5c5", "background-color", "blue");
   }
 });
+var b1;
+var b2;
+var b3;
+var b4;
+var b5;
+var b6;
+var b7;
+var b8;
+var b9;
+var b10;
+var b11;
+var b12;
+var b13;
+var b14;
+var b15;
+var b16;
+var b17;
+var b18;
+var b19;
+var b20;
+var b21;
+var b22;
+var b23;
+var b24;
+var b25;
+function reset() {
+  b1 = randomNumber(0, 1);
+  b2 = randomNumber(0, 1);
+  b3 = randomNumber(0, 1);
+  b4 = randomNumber(0, 1);
+  b5 = randomNumber(0, 1);
+  b6 = randomNumber(0, 1);
+  b7 = randomNumber(0, 1);
+  b8 = randomNumber(0, 1);
+  b9 = randomNumber(0, 1);
+  b10 = randomNumber(0, 1);
+  b11 = randomNumber(0, 1);
+  b12 = randomNumber(0, 1);
+  b13 = randomNumber(0, 1);
+  b14 = randomNumber(0, 1);
+  b15 = randomNumber(0, 1);
+  b16 = randomNumber(0, 1);
+  b17 = randomNumber(0, 1);
+  b18 = randomNumber(0, 1);
+  b19 = randomNumber(0, 1);
+  b20 = randomNumber(0, 1);
+  b21 = randomNumber(0, 1);
+  b22 = randomNumber(0, 1);
+  b23 = randomNumber(0, 1);
+  b24 = randomNumber(0, 1);
+  b25 = randomNumber(0, 1);
+  if (b1 == 0) {
+    setProperty("r1c1", "background-color", "red");
+  } else {
+    setProperty("r1c1", "background-color", "blue");
+  }
+  if (b2 == 0) {
+    setProperty("r1c2", "background-color", "red");
+  } else {
+    setProperty("r1c2", "background-color", "blue");
+  }
+  if (b3 == 0) {
+    setProperty("r1c3", "background-color", "red");
+  } else {
+    setProperty("r1c3", "background-color", "blue");
+  }
+  if (b4 == 0) {
+    setProperty("r1c4", "background-color", "red");
+  } else {
+    setProperty("r1c4", "background-color", "blue");
+  }
+  if (b5 == 0) {
+    setProperty("r1c5", "background-color", "red");
+  } else {
+    setProperty("r1c5", "background-color", "blue");
+  }
+  if (b6 == 0) {
+    setProperty("r2c1", "background-color", "red");
+  } else {
+    setProperty("r2c1", "background-color", "blue");
+  }
+  if (b7 == 0) {
+    setProperty("r2c2", "background-color", "red");
+  } else {
+    setProperty("r2c2", "background-color", "blue");
+  }
+  if (b8 == 0) {
+    setProperty("r2c3", "background-color", "red");
+  } else {
+    setProperty("r2c3", "background-color", "blue");
+  }
+  if (b9 == 0) {
+    setProperty("r2c4", "background-color", "red");
+  } else {
+    setProperty("r2c4", "background-color", "blue");
+  }
+  if (b10 == 0) {
+    setProperty("r2c5", "background-color", "red");
+  } else {
+    setProperty("r2c5", "background-color", "blue");
+  }
+  if (b11 == 0) {
+    setProperty("r3c1", "background-color", "red");
+  } else {
+    setProperty("r3c1", "background-color", "blue");
+  }
+  if (b12 == 0) {
+    setProperty("r3c2", "background-color", "red");
+  } else {
+    setProperty("r3c2", "background-color", "blue");
+  }
+  if (b13 == 0) {
+    setProperty("r3c3", "background-color", "red");
+  } else {
+    setProperty("r3c3", "background-color", "blue");
+  }
+  if (b14 == 0) {
+    setProperty("r3c4", "background-color", "red");
+  } else {
+    setProperty("r3c4", "background-color", "blue");
+  }
+  if (b15 == 0) {
+    setProperty("r3c5", "background-color", "red");
+  } else {
+    setProperty("r3c5", "background-color", "blue");
+  }
+  if (b16 == 0) {
+    setProperty("r4c1", "background-color", "red");
+  } else {
+    setProperty("r4c1", "background-color", "blue");
+  }
+  if (b17 == 0) {
+    setProperty("r4c2", "background-color", "red");
+  } else {
+    setProperty("r4c2", "background-color", "blue");
+  }
+  if (b18 == 0) {
+    setProperty("r4c3", "background-color", "red");
+  } else {
+    setProperty("r4c3", "background-color", "blue");
+  }
+  if (b19 == 0) {
+    setProperty("r4c4", "background-color", "red");
+  } else {
+    setProperty("r4c4", "background-color", "blue");
+  }
+  if (b20 == 0) {
+    setProperty("r4c5", "background-color", "red");
+  } else {
+    setProperty("r4c5", "background-color", "blue");
+  }
+  if (b21 == 0) {
+    setProperty("r5c1", "background-color", "red");
+  } else {
+    setProperty("r5c1", "background-color", "blue");
+  }
+  if (b22 == 0) {
+    setProperty("r5c2", "background-color", "red");
+  } else {
+    setProperty("r5c2", "background-color", "blue");
+  }
+  if (b23 == 0) {
+    setProperty("r5c3", "background-color", "red");
+  } else {
+    setProperty("r5c3", "background-color", "blue");
+  }
+  if (b24 == 0) {
+    setProperty("r5c4", "background-color", "red");
+  } else {
+    setProperty("r5c4", "background-color", "blue");
+  }
+  if (b25 == 0) {
+    setProperty("r5c5", "background-color", "red");
+  } else {
+    setProperty("r5c5", "background-color", "blue");
+  }
+}
+onEvent("reset", "click", function( ) {
+  reset();
+});
