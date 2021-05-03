@@ -1,601 +1,601 @@
 reset();
 onEvent("r1c1", "click", function( ) {
-  if (getProperty("r1c1", "background-color") == "blue") {
-    setProperty("r1c1", "background-color", "red");
-  } else {
+  if (getProperty("r1c1", "background-color") == "red") {
     setProperty("r1c1", "background-color", "blue");
-  }
-  if (getProperty("r1c2", "background-color") == "blue") {
-    setProperty("r1c2", "background-color", "red");
   } else {
+    setProperty("r1c1", "background-color", "red");
+  }
+  if (getProperty("r1c2", "background-color") == "red") {
     setProperty("r1c2", "background-color", "blue");
-  }
-  if (getProperty("r2c1", "background-color") == "blue") {
-    setProperty("r2c1", "background-color", "red");
   } else {
+    setProperty("r1c2", "background-color", "red");
+  }
+  if (getProperty("r2c1", "background-color") == "red") {
     setProperty("r2c1", "background-color", "blue");
+  } else {
+    setProperty("r2c1", "background-color", "red");
   }
   win();
 });
 onEvent("r1c2", "click", function( ) {
-  if (getProperty("r1c1", "background-color") == "blue") {
-    setProperty("r1c1", "background-color", "red");
-  } else {
+  if (getProperty("r1c1", "background-color") == "red") {
     setProperty("r1c1", "background-color", "blue");
-  }
-  if (getProperty("r1c2", "background-color") == "blue") {
-    setProperty("r1c2", "background-color", "red");
   } else {
+    setProperty("r1c1", "background-color", "red");
+  }
+  if (getProperty("r1c2", "background-color") == "red") {
     setProperty("r1c2", "background-color", "blue");
-  }
-  if (getProperty("r1c3", "background-color") == "blue") {
-    setProperty("r1c3", "background-color", "red");
   } else {
+    setProperty("r1c2", "background-color", "red");
+  }
+  if (getProperty("r1c3", "background-color") == "red") {
     setProperty("r1c3", "background-color", "blue");
-  }
-  if (getProperty("r2c2", "background-color") == "blue") {
-    setProperty("r2c2", "background-color", "red");
   } else {
+    setProperty("r1c3", "background-color", "red");
+  }
+  if (getProperty("r2c2", "background-color") == "red") {
     setProperty("r2c2", "background-color", "blue");
+  } else {
+    setProperty("r2c2", "background-color", "red");
   }
   win();
 });
 onEvent("r1c3", "click", function( ) {
-  if (getProperty("r1c2", "background-color") == "blue") {
-    setProperty("r1c2", "background-color", "red");
-  } else {
+  if (getProperty("r1c2", "background-color") == "red") {
     setProperty("r1c2", "background-color", "blue");
-  }
-  if (getProperty("r1c3", "background-color") == "blue") {
-    setProperty("r1c3", "background-color", "red");
   } else {
+    setProperty("r1c2", "background-color", "red");
+  }
+  if (getProperty("r1c3", "background-color") == "red") {
     setProperty("r1c3", "background-color", "blue");
-  }
-  if (getProperty("r1c4", "background-color") == "blue") {
-    setProperty("r1c4", "background-color", "red");
   } else {
+    setProperty("r1c3", "background-color", "red");
+  }
+  if (getProperty("r1c4", "background-color") == "red") {
     setProperty("r1c4", "background-color", "blue");
-  }
-  if (getProperty("r2c3", "background-color") == "blue") {
-    setProperty("r2c3", "background-color", "red");
   } else {
+    setProperty("r1c4", "background-color", "red");
+  }
+  if (getProperty("r2c3", "background-color") == "red") {
     setProperty("r2c3", "background-color", "blue");
+  } else {
+    setProperty("r2c3", "background-color", "red");
   }
   win();
 });
 onEvent("r1c4", "click", function( ) {
-  if (getProperty("r1c3", "background-color") == "blue") {
-    setProperty("r1c3", "background-color", "red");
-  } else {
+  if (getProperty("r1c3", "background-color") == "red") {
     setProperty("r1c3", "background-color", "blue");
-  }
-  if (getProperty("r1c4", "background-color") == "blue") {
-    setProperty("r1c4", "background-color", "red");
   } else {
+    setProperty("r1c3", "background-color", "red");
+  }
+  if (getProperty("r1c4", "background-color") == "red") {
     setProperty("r1c4", "background-color", "blue");
-  }
-  if (getProperty("r1c5", "background-color") == "blue") {
-    setProperty("r1c5", "background-color", "red");
   } else {
+    setProperty("r1c4", "background-color", "red");
+  }
+  if (getProperty("r1c5", "background-color") == "red") {
     setProperty("r1c5", "background-color", "blue");
-  }
-  if (getProperty("r2c4", "background-color") == "blue") {
-    setProperty("r2c4", "background-color", "red");
   } else {
+    setProperty("r1c5", "background-color", "red");
+  }
+  if (getProperty("r2c4", "background-color") == "red") {
     setProperty("r2c4", "background-color", "blue");
+  } else {
+    setProperty("r2c4", "background-color", "red");
   }
   win();
 });
 onEvent("r1c5", "click", function( ) {
-  if (getProperty("r1c4", "background-color") == "blue") {
-    setProperty("r1c4", "background-color", "red");
-  } else {
+  if (getProperty("r1c4", "background-color") == "red") {
     setProperty("r1c4", "background-color", "blue");
-  }
-  if (getProperty("r1c5", "background-color") == "blue") {
-    setProperty("r1c5", "background-color", "red");
   } else {
+    setProperty("r1c4", "background-color", "red");
+  }
+  if (getProperty("r1c5", "background-color") == "red") {
     setProperty("r1c5", "background-color", "blue");
-  }
-  if (getProperty("r2c5", "background-color") == "blue") {
-    setProperty("r2c5", "background-color", "red");
   } else {
+    setProperty("r1c5", "background-color", "red");
+  }
+  if (getProperty("r2c5", "background-color") == "red") {
     setProperty("r2c5", "background-color", "blue");
+  } else {
+    setProperty("r2c5", "background-color", "red");
   }
   win();
 });
 onEvent("r2c1", "click", function( ) {
-  if (getProperty("r1c1", "background-color") == "blue") {
-    setProperty("r1c1", "background-color", "red");
-  } else {
+  if (getProperty("r1c1", "background-color") == "red") {
     setProperty("r1c1", "background-color", "blue");
-  }
-  if (getProperty("r2c1", "background-color") == "blue") {
-    setProperty("r2c1", "background-color", "red");
   } else {
+    setProperty("r1c1", "background-color", "red");
+  }
+  if (getProperty("r2c1", "background-color") == "red") {
     setProperty("r2c1", "background-color", "blue");
-  }
-  if (getProperty("r2c2", "background-color") == "blue") {
-    setProperty("r2c2", "background-color", "red");
   } else {
+    setProperty("r2c1", "background-color", "red");
+  }
+  if (getProperty("r2c2", "background-color") == "red") {
     setProperty("r2c2", "background-color", "blue");
-  }
-  if (getProperty("r3c1", "background-color") == "blue") {
-    setProperty("r3c1", "background-color", "red");
   } else {
+    setProperty("r2c2", "background-color", "red");
+  }
+  if (getProperty("r3c1", "background-color") == "red") {
     setProperty("r3c1", "background-color", "blue");
+  } else {
+    setProperty("r3c1", "background-color", "red");
   }
   win();
 });
 onEvent("r2c2", "click", function( ) {
-  if (getProperty("r1c2", "background-color") == "blue") {
-    setProperty("r1c2", "background-color", "red");
-  } else {
+  if (getProperty("r1c2", "background-color") == "red") {
     setProperty("r1c2", "background-color", "blue");
-  }
-  if (getProperty("r2c1", "background-color") == "blue") {
-    setProperty("r2c1", "background-color", "red");
   } else {
+    setProperty("r1c2", "background-color", "red");
+  }
+  if (getProperty("r2c1", "background-color") == "red") {
     setProperty("r2c1", "background-color", "blue");
-  }
-  if (getProperty("r2c2", "background-color") == "blue") {
-    setProperty("r2c2", "background-color", "red");
   } else {
+    setProperty("r2c1", "background-color", "red");
+  }
+  if (getProperty("r2c2", "background-color") == "red") {
     setProperty("r2c2", "background-color", "blue");
-  }
-  if (getProperty("r2c3", "background-color") == "blue") {
-    setProperty("r2c3", "background-color", "red");
   } else {
+    setProperty("r2c2", "background-color", "red");
+  }
+  if (getProperty("r2c3", "background-color") == "red") {
     setProperty("r2c3", "background-color", "blue");
-  }
-  if (getProperty("r3c2", "background-color") == "blue") {
-    setProperty("r3c2", "background-color", "red");
   } else {
+    setProperty("r2c3", "background-color", "red");
+  }
+  if (getProperty("r3c2", "background-color") == "red") {
     setProperty("r3c2", "background-color", "blue");
+  } else {
+    setProperty("r3c2", "background-color", "red");
   }
   win();
 });
 onEvent("r2c3", "click", function( ) {
-  if (getProperty("r1c3", "background-color") == "blue") {
-    setProperty("r1c3", "background-color", "red");
-  } else {
+  if (getProperty("r1c3", "background-color") == "red") {
     setProperty("r1c3", "background-color", "blue");
-  }
-  if (getProperty("r2c2", "background-color") == "blue") {
-    setProperty("r2c2", "background-color", "red");
   } else {
+    setProperty("r1c3", "background-color", "red");
+  }
+  if (getProperty("r2c2", "background-color") == "red") {
     setProperty("r2c2", "background-color", "blue");
-  }
-  if (getProperty("r2c3", "background-color") == "blue") {
-    setProperty("r2c3", "background-color", "red");
   } else {
+    setProperty("r2c2", "background-color", "red");
+  }
+  if (getProperty("r2c3", "background-color") == "red") {
     setProperty("r2c3", "background-color", "blue");
-  }
-  if (getProperty("r2c4", "background-color") == "blue") {
-    setProperty("r2c4", "background-color", "red");
   } else {
+    setProperty("r2c3", "background-color", "red");
+  }
+  if (getProperty("r2c4", "background-color") == "red") {
     setProperty("r2c4", "background-color", "blue");
-  }
-  if (getProperty("r3c3", "background-color") == "blue") {
-    setProperty("r3c3", "background-color", "red");
   } else {
+    setProperty("r2c4", "background-color", "red");
+  }
+  if (getProperty("r3c3", "background-color") == "red") {
     setProperty("r3c3", "background-color", "blue");
+  } else {
+    setProperty("r3c3", "background-color", "red");
   }
   win();
 });
 onEvent("r2c4", "click", function( ) {
-  if (getProperty("r1c4", "background-color") == "blue") {
-    setProperty("r1c4", "background-color", "red");
-  } else {
+  if (getProperty("r1c4", "background-color") == "red") {
     setProperty("r1c4", "background-color", "blue");
-  }
-  if (getProperty("r2c3", "background-color") == "blue") {
-    setProperty("r2c3", "background-color", "red");
   } else {
+    setProperty("r1c4", "background-color", "red");
+  }
+  if (getProperty("r2c3", "background-color") == "red") {
     setProperty("r2c3", "background-color", "blue");
-  }
-  if (getProperty("r2c4", "background-color") == "blue") {
-    setProperty("r2c4", "background-color", "red");
   } else {
+    setProperty("r2c3", "background-color", "red");
+  }
+  if (getProperty("r2c4", "background-color") == "red") {
     setProperty("r2c4", "background-color", "blue");
-  }
-  if (getProperty("r2c5", "background-color") == "blue") {
-    setProperty("r2c5", "background-color", "red");
   } else {
+    setProperty("r2c4", "background-color", "red");
+  }
+  if (getProperty("r2c5", "background-color") == "red") {
     setProperty("r2c5", "background-color", "blue");
-  }
-  if (getProperty("r3c4", "background-color") == "blue") {
-    setProperty("r3c4", "background-color", "red");
   } else {
+    setProperty("r2c5", "background-color", "red");
+  }
+  if (getProperty("r3c4", "background-color") == "red") {
     setProperty("r3c4", "background-color", "blue");
+  } else {
+    setProperty("r3c4", "background-color", "red");
   }
   win();
 });
 onEvent("r2c5", "click", function( ) {
-  if (getProperty("r1c5", "background-color") == "blue") {
-    setProperty("r1c5", "background-color", "red");
-  } else {
+  if (getProperty("r1c5", "background-color") == "red") {
     setProperty("r1c5", "background-color", "blue");
-  }
-  if (getProperty("r2c4", "background-color") == "blue") {
-    setProperty("r2c4", "background-color", "red");
   } else {
+    setProperty("r1c5", "background-color", "red");
+  }
+  if (getProperty("r2c4", "background-color") == "red") {
     setProperty("r2c4", "background-color", "blue");
-  }
-  if (getProperty("r2c5", "background-color") == "blue") {
-    setProperty("r2c5", "background-color", "red");
   } else {
+    setProperty("r2c4", "background-color", "red");
+  }
+  if (getProperty("r2c5", "background-color") == "red") {
     setProperty("r2c5", "background-color", "blue");
-  }
-  if (getProperty("r3c5", "background-color") == "blue") {
-    setProperty("r3c5", "background-color", "red");
   } else {
+    setProperty("r2c5", "background-color", "red");
+  }
+  if (getProperty("r3c5", "background-color") == "red") {
     setProperty("r3c5", "background-color", "blue");
+  } else {
+    setProperty("r3c5", "background-color", "red");
   }
   win();
 });
 onEvent("r3c1", "click", function( ) {
-  if (getProperty("r2c1", "background-color") == "blue") {
-    setProperty("r2c1", "background-color", "red");
-  } else {
+  if (getProperty("r2c1", "background-color") == "red") {
     setProperty("r2c1", "background-color", "blue");
-  }
-  if (getProperty("r3c1", "background-color") == "blue") {
-    setProperty("r3c1", "background-color", "red");
   } else {
+    setProperty("r2c1", "background-color", "red");
+  }
+  if (getProperty("r3c1", "background-color") == "red") {
     setProperty("r3c1", "background-color", "blue");
-  }
-  if (getProperty("r3c2", "background-color") == "blue") {
-    setProperty("r3c2", "background-color", "red");
   } else {
+    setProperty("r3c1", "background-color", "red");
+  }
+  if (getProperty("r3c2", "background-color") == "red") {
     setProperty("r3c2", "background-color", "blue");
-  }
-  if (getProperty("r4c1", "background-color") == "blue") {
-    setProperty("r4c1", "background-color", "red");
   } else {
+    setProperty("r3c2", "background-color", "red");
+  }
+  if (getProperty("r4c1", "background-color") == "red") {
     setProperty("r4c1", "background-color", "blue");
+  } else {
+    setProperty("r4c1", "background-color", "red");
   }
   win();
 });
 onEvent("r3c2", "click", function( ) {
-  if (getProperty("r2c2", "background-color") == "blue") {
-    setProperty("r2c2", "background-color", "red");
-  } else {
+  if (getProperty("r2c2", "background-color") == "red") {
     setProperty("r2c2", "background-color", "blue");
-  }
-  if (getProperty("r3c1", "background-color") == "blue") {
-    setProperty("r3c1", "background-color", "red");
   } else {
+    setProperty("r2c2", "background-color", "red");
+  }
+  if (getProperty("r3c1", "background-color") == "red") {
     setProperty("r3c1", "background-color", "blue");
-  }
-  if (getProperty("r3c2", "background-color") == "blue") {
-    setProperty("r3c2", "background-color", "red");
   } else {
+    setProperty("r3c1", "background-color", "red");
+  }
+  if (getProperty("r3c2", "background-color") == "red") {
     setProperty("r3c2", "background-color", "blue");
-  }
-  if (getProperty("r3c3", "background-color") == "blue") {
-    setProperty("r3c3", "background-color", "red");
   } else {
+    setProperty("r3c2", "background-color", "red");
+  }
+  if (getProperty("r3c3", "background-color") == "red") {
     setProperty("r3c3", "background-color", "blue");
-  }
-  if (getProperty("r4c2", "background-color") == "blue") {
-    setProperty("r4c2", "background-color", "red");
   } else {
+    setProperty("r3c3", "background-color", "red");
+  }
+  if (getProperty("r4c2", "background-color") == "red") {
     setProperty("r4c2", "background-color", "blue");
+  } else {
+    setProperty("r4c2", "background-color", "red");
   }
   win();
 });
 onEvent("r3c3", "click", function( ) {
-  if (getProperty("r2c3", "background-color") == "blue") {
-    setProperty("r2c3", "background-color", "red");
-  } else {
+  if (getProperty("r2c3", "background-color") == "red") {
     setProperty("r2c3", "background-color", "blue");
-  }
-  if (getProperty("r3c2", "background-color") == "blue") {
-    setProperty("r3c2", "background-color", "red");
   } else {
+    setProperty("r2c3", "background-color", "red");
+  }
+  if (getProperty("r3c2", "background-color") == "red") {
     setProperty("r3c2", "background-color", "blue");
-  }
-  if (getProperty("r3c3", "background-color") == "blue") {
-    setProperty("r3c3", "background-color", "red");
   } else {
+    setProperty("r3c2", "background-color", "red");
+  }
+  if (getProperty("r3c3", "background-color") == "red") {
     setProperty("r3c3", "background-color", "blue");
-  }
-  if (getProperty("r3c4", "background-color") == "blue") {
-    setProperty("r3c4", "background-color", "red");
   } else {
+    setProperty("r3c3", "background-color", "red");
+  }
+  if (getProperty("r3c4", "background-color") == "red") {
     setProperty("r3c4", "background-color", "blue");
-  }
-  if (getProperty("r4c3", "background-color") == "blue") {
-    setProperty("r4c3", "background-color", "red");
   } else {
+    setProperty("r3c4", "background-color", "red");
+  }
+  if (getProperty("r4c3", "background-color") == "red") {
     setProperty("r4c3", "background-color", "blue");
+  } else {
+    setProperty("r4c3", "background-color", "red");
   }
   win();
 });
 onEvent("r3c4", "click", function( ) {
-  if (getProperty("r2c4", "background-color") == "blue") {
-    setProperty("r2c4", "background-color", "red");
-  } else {
+  if (getProperty("r2c4", "background-color") == "red") {
     setProperty("r2c4", "background-color", "blue");
-  }
-  if (getProperty("r3c3", "background-color") == "blue") {
-    setProperty("r3c3", "background-color", "red");
   } else {
+    setProperty("r2c4", "background-color", "red");
+  }
+  if (getProperty("r3c3", "background-color") == "red") {
     setProperty("r3c3", "background-color", "blue");
-  }
-  if (getProperty("r3c4", "background-color") == "blue") {
-    setProperty("r3c4", "background-color", "red");
   } else {
+    setProperty("r3c3", "background-color", "red");
+  }
+  if (getProperty("r3c4", "background-color") == "red") {
     setProperty("r3c4", "background-color", "blue");
-  }
-  if (getProperty("r3c5", "background-color") == "blue") {
-    setProperty("r3c5", "background-color", "red");
   } else {
+    setProperty("r3c4", "background-color", "red");
+  }
+  if (getProperty("r3c5", "background-color") == "red") {
     setProperty("r3c5", "background-color", "blue");
-  }
-  if (getProperty("r4c4", "background-color") == "blue") {
-    setProperty("r4c4", "background-color", "red");
   } else {
+    setProperty("r3c5", "background-color", "red");
+  }
+  if (getProperty("r4c4", "background-color") == "red") {
     setProperty("r4c4", "background-color", "blue");
+  } else {
+    setProperty("r4c4", "background-color", "red");
   }
   win();
 });
 onEvent("r3c5", "click", function( ) {
-  if (getProperty("r2c5", "background-color") == "blue") {
+  if (getProperty("r2c5", "background-color") == "red") {
     setProperty("r2c5", "background-color", "red");
   } else {
     setProperty("r2c5", "background-color", "blue");
   }
-  if (getProperty("r3c4", "background-color") == "blue") {
-    setProperty("r3c4", "background-color", "red");
-  } else {
+  if (getProperty("r3c4", "background-color") == "red") {
     setProperty("r3c4", "background-color", "blue");
-  }
-  if (getProperty("r3c5", "background-color") == "blue") {
-    setProperty("r3c5", "background-color", "red");
   } else {
+    setProperty("r3c4", "background-color", "red");
+  }
+  if (getProperty("r3c5", "background-color") == "red") {
     setProperty("r3c5", "background-color", "blue");
-  }
-  if (getProperty("r4c5", "background-color") == "blue") {
-    setProperty("r4c5", "background-color", "red");
   } else {
+    setProperty("r3c5", "background-color", "red");
+  }
+  if (getProperty("r4c5", "background-color") == "red") {
     setProperty("r4c5", "background-color", "blue");
+  } else {
+    setProperty("r4c5", "background-color", "red");
   }
   win();
 });
 onEvent("r4c1", "click", function( ) {
-  if (getProperty("r3c1", "background-color") == "blue") {
-    setProperty("r3c1", "background-color", "red");
-  } else {
+  if (getProperty("r3c1", "background-color") == "red") {
     setProperty("r3c1", "background-color", "blue");
-  }
-  if (getProperty("r4c1", "background-color") == "blue") {
-    setProperty("r4c1", "background-color", "red");
   } else {
+    setProperty("r3c1", "background-color", "red");
+  }
+  if (getProperty("r4c1", "background-color") == "red") {
     setProperty("r4c1", "background-color", "blue");
-  }
-  if (getProperty("r4c2", "background-color") == "blue") {
-    setProperty("r4c2", "background-color", "red");
   } else {
+    setProperty("r4c1", "background-color", "red");
+  }
+  if (getProperty("r4c2", "background-color") == "red") {
     setProperty("r4c2", "background-color", "blue");
-  }
-  if (getProperty("r5c1", "background-color") == "blue") {
-    setProperty("r5c1", "background-color", "red");
   } else {
+    setProperty("r4c2", "background-color", "red");
+  }
+  if (getProperty("r5c1", "background-color") == "red") {
     setProperty("r5c1", "background-color", "blue");
+  } else {
+    setProperty("r5c1", "background-color", "red");
   }
   win();
 });
 onEvent("r4c2", "click", function( ) {
-  if (getProperty("r3c2", "background-color") == "blue") {
-    setProperty("r3c2", "background-color", "red");
-  } else {
+  if (getProperty("r3c2", "background-color") == "red") {
     setProperty("r3c2", "background-color", "blue");
-  }
-  if (getProperty("r4c1", "background-color") == "blue") {
-    setProperty("r4c1", "background-color", "red");
   } else {
+    setProperty("r3c2", "background-color", "red");
+  }
+  if (getProperty("r4c1", "background-color") == "red") {
     setProperty("r4c1", "background-color", "blue");
-  }
-  if (getProperty("r4c2", "background-color") == "blue") {
-    setProperty("r4c2", "background-color", "red");
   } else {
+    setProperty("r4c1", "background-color", "red");
+  }
+  if (getProperty("r4c2", "background-color") == "red") {
     setProperty("r4c2", "background-color", "blue");
-  }
-  if (getProperty("r4c3", "background-color") == "blue") {
-    setProperty("r4c3", "background-color", "red");
   } else {
+    setProperty("r4c2", "background-color", "red");
+  }
+  if (getProperty("r4c3", "background-color") == "red") {
     setProperty("r4c3", "background-color", "blue");
-  }
-  if (getProperty("r5c2", "background-color") == "blue") {
-    setProperty("r5c2", "background-color", "red");
   } else {
+    setProperty("r4c3", "background-color", "red");
+  }
+  if (getProperty("r5c2", "background-color") == "red") {
     setProperty("r5c2", "background-color", "blue");
+  } else {
+    setProperty("r5c2", "background-color", "red");
   }
   win();
 });
 onEvent("r4c3", "click", function( ) {
-  if (getProperty("r3c3", "background-color") == "blue") {
-    setProperty("r3c3", "background-color", "red");
-  } else {
+  if (getProperty("r3c3", "background-color") == "red") {
     setProperty("r3c3", "background-color", "blue");
-  }
-  if (getProperty("r4c2", "background-color") == "blue") {
-    setProperty("r4c2", "background-color", "red");
   } else {
+    setProperty("r3c3", "background-color", "red");
+  }
+  if (getProperty("r4c2", "background-color") == "red") {
     setProperty("r4c2", "background-color", "blue");
-  }
-  if (getProperty("r4c3", "background-color") == "blue") {
-    setProperty("r4c3", "background-color", "red");
   } else {
+    setProperty("r4c2", "background-color", "red");
+  }
+  if (getProperty("r4c3", "background-color") == "red") {
     setProperty("r4c3", "background-color", "blue");
-  }
-  if (getProperty("r4c4", "background-color") == "blue") {
-    setProperty("r4c4", "background-color", "red");
   } else {
+    setProperty("r4c3", "background-color", "red");
+  }
+  if (getProperty("r4c4", "background-color") == "red") {
     setProperty("r4c4", "background-color", "blue");
-  }
-  if (getProperty("r5c3", "background-color") == "blue") {
-    setProperty("r5c3", "background-color", "red");
   } else {
+    setProperty("r4c4", "background-color", "red");
+  }
+  if (getProperty("r5c3", "background-color") == "red") {
     setProperty("r5c3", "background-color", "blue");
+  } else {
+    setProperty("r5c3", "background-color", "red");
   }
   win();
 });
 onEvent("r4c4", "click", function( ) {
-  if (getProperty("r3c4", "background-color") == "blue") {
-    setProperty("r3c4", "background-color", "red");
-  } else {
+  if (getProperty("r3c4", "background-color") == "red") {
     setProperty("r3c4", "background-color", "blue");
-  }
-  if (getProperty("r4c3", "background-color") == "blue") {
-    setProperty("r4c3", "background-color", "red");
   } else {
+    setProperty("r3c4", "background-color", "red");
+  }
+  if (getProperty("r4c3", "background-color") == "red") {
     setProperty("r4c3", "background-color", "blue");
-  }
-  if (getProperty("r4c4", "background-color") == "blue") {
-    setProperty("r4c4", "background-color", "red");
   } else {
+    setProperty("r4c3", "background-color", "red");
+  }
+  if (getProperty("r4c4", "background-color") == "red") {
     setProperty("r4c4", "background-color", "blue");
-  }
-  if (getProperty("r4c5", "background-color") == "blue") {
-    setProperty("r4c5", "background-color", "red");
   } else {
+    setProperty("r4c4", "background-color", "red");
+  }
+  if (getProperty("r4c5", "background-color") == "red") {
     setProperty("r4c5", "background-color", "blue");
-  }
-  if (getProperty("r5c4", "background-color") == "blue") {
-    setProperty("r5c4", "background-color", "red");
   } else {
+    setProperty("r4c5", "background-color", "red");
+  }
+  if (getProperty("r5c4", "background-color") == "red") {
     setProperty("r5c4", "background-color", "blue");
+  } else {
+    setProperty("r5c4", "background-color", "red");
   }
   win();
 });
 onEvent("r4c5", "click", function( ) {
-  if (getProperty("r3c5", "background-color") == "blue") {
-    setProperty("r3c5", "background-color", "red");
-  } else {
+  if (getProperty("r3c5", "background-color") == "red") {
     setProperty("r3c5", "background-color", "blue");
-  }
-  if (getProperty("r4c4", "background-color") == "blue") {
-    setProperty("r4c4", "background-color", "red");
   } else {
+    setProperty("r3c5", "background-color", "red");
+  }
+  if (getProperty("r4c4", "background-color") == "red") {
     setProperty("r4c4", "background-color", "blue");
-  }
-  if (getProperty("r4c5", "background-color") == "blue") {
-    setProperty("r4c5", "background-color", "red");
   } else {
+    setProperty("r4c4", "background-color", "red");
+  }
+  if (getProperty("r4c5", "background-color") == "red") {
     setProperty("r4c5", "background-color", "blue");
-  }
-  if (getProperty("r5c5", "background-color") == "blue") {
-    setProperty("r5c5", "background-color", "red");
   } else {
+    setProperty("r4c5", "background-color", "red");
+  }
+  if (getProperty("r5c5", "background-color") == "red") {
     setProperty("r5c5", "background-color", "blue");
+  } else {
+    setProperty("r5c5", "background-color", "red");
   }
   win();
 });
 onEvent("r5c1", "click", function( ) {
-  if (getProperty("r4c1", "background-color") == "blue") {
-    setProperty("r4c1", "background-color", "red");
-  } else {
+  if (getProperty("r4c1", "background-color") == "red") {
     setProperty("r4c1", "background-color", "blue");
-  }
-  if (getProperty("r5c1", "background-color") == "blue") {
-    setProperty("r5c1", "background-color", "red");
   } else {
+    setProperty("r4c1", "background-color", "red");
+  }
+  if (getProperty("r5c1", "background-color") == "red") {
     setProperty("r5c1", "background-color", "blue");
-  }
-  if (getProperty("r5c2", "background-color") == "blue") {
-    setProperty("r5c2", "background-color", "red");
   } else {
+    setProperty("r5c1", "background-color", "red");
+  }
+  if (getProperty("r5c2", "background-color") == "red") {
     setProperty("r5c2", "background-color", "blue");
+  } else {
+    setProperty("r5c2", "background-color", "red");
   }
   win();
 });
 onEvent("r5c2", "click", function( ) {
-  if (getProperty("r4c2", "background-color") == "blue") {
-    setProperty("r4c2", "background-color", "red");
-  } else {
+  if (getProperty("r4c2", "background-color") == "red") {
     setProperty("r4c2", "background-color", "blue");
-  }
-  if (getProperty("r5c1", "background-color") == "blue") {
-    setProperty("r5c1", "background-color", "red");
   } else {
+    setProperty("r4c2", "background-color", "red");
+  }
+  if (getProperty("r5c1", "background-color") == "red") {
     setProperty("r5c1", "background-color", "blue");
-  }
-  if (getProperty("r5c2", "background-color") == "blue") {
-    setProperty("r5c2", "background-color", "red");
   } else {
+    setProperty("r5c1", "background-color", "red");
+  }
+  if (getProperty("r5c2", "background-color") == "red") {
     setProperty("r5c2", "background-color", "blue");
-  }
-  if (getProperty("r5c3", "background-color") == "blue") {
-    setProperty("r5c3", "background-color", "red");
   } else {
+    setProperty("r5c2", "background-color", "red");
+  }
+  if (getProperty("r5c3", "background-color") == "red") {
     setProperty("r5c3", "background-color", "blue");
+  } else {
+    setProperty("r5c3", "background-color", "red");
   }
   win();
 });
 onEvent("r5c3", "click", function( ) {
-  if (getProperty("r4c3", "background-color") == "blue") {
-    setProperty("r4c3", "background-color", "red");
-  } else {
+  if (getProperty("r4c3", "background-color") == "red") {
     setProperty("r4c3", "background-color", "blue");
-  }
-  if (getProperty("r5c2", "background-color") == "blue") {
-    setProperty("r5c2", "background-color", "red");
   } else {
+    setProperty("r4c3", "background-color", "red");
+  }
+  if (getProperty("r5c2", "background-color") == "red") {
     setProperty("r5c2", "background-color", "blue");
-  }
-  if (getProperty("r5c3", "background-color") == "blue") {
-    setProperty("r5c3", "background-color", "red");
   } else {
+    setProperty("r5c2", "background-color", "red");
+  }
+  if (getProperty("r5c3", "background-color") == "red") {
     setProperty("r5c3", "background-color", "blue");
-  }
-  if (getProperty("r5c4", "background-color") == "blue") {
-    setProperty("r5c4", "background-color", "red");
   } else {
+    setProperty("r5c3", "background-color", "red");
+  }
+  if (getProperty("r5c4", "background-color") == "red") {
     setProperty("r5c4", "background-color", "blue");
+  } else {
+    setProperty("r5c4", "background-color", "red");
   }
   win();
 });
 onEvent("r5c4", "click", function( ) {
-  if (getProperty("r4c4", "background-color") == "blue") {
-    setProperty("r4c4", "background-color", "red");
-  } else {
+  if (getProperty("r4c4", "background-color") == "red") {
     setProperty("r4c4", "background-color", "blue");
-  }
-  if (getProperty("r5c3", "background-color") == "blue") {
-    setProperty("r5c3", "background-color", "red");
   } else {
+    setProperty("r4c4", "background-color", "red");
+  }
+  if (getProperty("r5c3", "background-color") == "red") {
     setProperty("r5c3", "background-color", "blue");
-  }
-  if (getProperty("r5c4", "background-color") == "blue") {
-    setProperty("r5c4", "background-color", "red");
   } else {
+    setProperty("r5c3", "background-color", "red");
+  }
+  if (getProperty("r5c4", "background-color") == "red") {
     setProperty("r5c4", "background-color", "blue");
-  }
-  if (getProperty("r5c5", "background-color") == "blue") {
-    setProperty("r5c5", "background-color", "red");
   } else {
+    setProperty("r5c4", "background-color", "red");
+  }
+  if (getProperty("r5c5", "background-color") == "red") {
     setProperty("r5c5", "background-color", "blue");
+  } else {
+    setProperty("r5c5", "background-color", "red");
   }
   win();
 });
 onEvent("r5c5", "click", function( ) {
-  if (getProperty("r4c5", "background-color") == "blue") {
-    setProperty("r4c5", "background-color", "red");
-  } else {
+  if (getProperty("r4c5", "background-color") == "red") {
     setProperty("r4c5", "background-color", "blue");
-  }
-  if (getProperty("r5c4", "background-color") == "blue") {
-    setProperty("r5c4", "background-color", "red");
   } else {
+    setProperty("r4c5", "background-color", "red");
+  }
+  if (getProperty("r5c4", "background-color") == "red") {
     setProperty("r5c4", "background-color", "blue");
-  }
-  if (getProperty("r5c5", "background-color") == "blue") {
-    setProperty("r5c5", "background-color", "red");
   } else {
+    setProperty("r5c4", "background-color", "red");
+  }
+  if (getProperty("r5c5", "background-color") == "red") {
     setProperty("r5c5", "background-color", "blue");
+  } else {
+    setProperty("r5c5", "background-color", "red");
   }
   win();
 });
@@ -775,17 +775,30 @@ function reset() {
   } else {
     setProperty("r5c5", "background-color", "blue");
   }
+  setProperty("instructions", "hidden", false);
+  setProperty("winMessage", "hidden", true);
 }
 onEvent("reset", "click", function( ) {
   reset();
 });
+var r;
+var c;
+var id;
 function win() {
-  for (var r = 1; r <= 5; r++) {
-    for (var c = 1; c <= 5; c++) {
-      var id = 'r'+r.toString()+'c'+c.toString();
+  for (r = 1; r <= 5; r++) {
+    for (c = 1; c <= 5; c++) {
+      id = 'r'+r.toString()+'c'+c.toString();
       if (getProperty(id, "background-color") == "blue") {
         return false;
       }
+    }
+  }
+  for (r = 1; r <= 5; r++) {
+    for (c = 1; c <= 5; c++) {
+      id = 'r'+r.toString()+'c'+c.toString();
+      setProperty(id, "background-color", "green");
+      setProperty("instructions", "hidden", true);
+      setProperty("winMessage", "hidden", false);
     }
   }
 }
